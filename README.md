@@ -1,10 +1,13 @@
 "# CT-GoruntulerindenKoronaVirusTespiti" 
-Çalıştırmak için =
-                    cmd ekranından klasörü attığınız dizinde çalıştırın
+Çalıştırmak için = cmd ekranından klasörü attığınız dizinde çalıştırın
 
-Cmd ekranında yada kullandığınız python düzenleyicilerindeki terminalde sırası ile şunları yazıyoruz:::
+Cmd ekranında yada kullandığınız python düzenleyicilerindeki terminalde  şunu yazıyoruz  ::::: pip install -r kutuphaneler.txt  :::::::
 
-pip install -r kutuphaneler.txt
+Hazır Modeli Kullanmak İçin    python train.py   çalıştırıyoruz..
+
+"#  HAZIR MODEL KULLANILMAK İSTENMEZ İSE SIRALI OLARAK ŞU İŞLEMLER YAPILMALIDIR.  "
+
+Kütüphanelerin Eklenmesinden Sonra Şu İşlemler Yapılıyor.
 
 Model Oluşumu için 
 
@@ -16,7 +19,7 @@ tmodel_analiz.py   çalıştırıyoruz.
 
 Oluşturulan Yeni Modelin Eğitimi İçin
 
-python train.py    çalıştırıyoruz.
+train.py    çalıştırıyoruz.
 
 Test işlemi için ise;
 
